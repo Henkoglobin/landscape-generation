@@ -6,6 +6,7 @@ local mathUtil = require("utils.mathUtil")
 
 local tests = { 2, 7, 61 }
 
+-- based on [this C# code](http://rosettacode.org/wiki/Miller%E2%80%93Rabin_primality_test#C.23)
 local function test(number)
 	if number < 2 then return false end
 	if number ~= 2 and number % 2 == 0 then return false end
