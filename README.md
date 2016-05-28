@@ -19,3 +19,11 @@ Currently, the following algorithms are implemented:
 * [Iterative (naïve) test](https://en.wikipedia.org/wiki/Primality_test#Simple_methods) ([Lua](Lua/utils/primality/iterativePrimalityTest.lua), [C#](CSharp/RandomNumberGeneration/BlumBlumShub/Utils/Primality/IterativePrimalityTest.cs))
 * [Fermat test](https://en.wikipedia.org/wiki/Fermat_primality_test) ([Lua](Lua/utils/primality/fermatPrimalityTest.lua), [C#](CSharp/RandomNumberGeneration/BlumBlumShub/Utils/Primality/FermatPrimalityTest.cs))
 * [Miller-Rabin test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) ([Lua](Lua/utils/primality/millerRabinPrimalityTest.lua), [C#](CSharp/RandomNumberGeneration/BlumBlumShub/Utils/Primality/MillerRabinPrimalityTest.cs))
+
+#### Miscellaneous Algorithms
+
+* [Modular Exponentiation](https://en.wikipedia.org/wiki/Modular_exponentiation) ([Lua](Lua/utils/mathUtil.lua#L7), [C#](CSharp/RandomNumberGeneration/BlumBlumShub/Utils/MathUtil.cs#L3))
+
+### Further Reading
+
+* [Ist 64368724123198392222214792847837482347299873623498374898237427 eine Primzahl?](http://activevb.de/rubriken/kolumne/kol_33/primzahltest.html)
